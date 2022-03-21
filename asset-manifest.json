@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nas-nav-task/static/css/main.ca967b62.css",
+    "main.js": "/nas-nav-task/static/js/main.bef3d4fd.js",
+    "static/js/409.896a88cb.chunk.js": "/nas-nav-task/static/js/409.896a88cb.chunk.js",
+    "index.html": "/nas-nav-task/index.html",
+    "main.ca967b62.css.map": "/nas-nav-task/static/css/main.ca967b62.css.map",
+    "main.bef3d4fd.js.map": "/nas-nav-task/static/js/main.bef3d4fd.js.map",
+    "409.896a88cb.chunk.js.map": "/nas-nav-task/static/js/409.896a88cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca967b62.css",
+    "static/js/main.bef3d4fd.js"
+  ]
+}
