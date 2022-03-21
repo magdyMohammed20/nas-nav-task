@@ -8,7 +8,7 @@ function Footer() {
                 <div className='d-flex footer-container'>
 
                     <div className='first-footer-section'>
-                        <img src='/images/footer/logo.png' />
+                        <img src='/nas-nav-task/images/footer/logo.png' />
                         <p className='mt-4'>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                         </p>
@@ -45,19 +45,19 @@ function Footer() {
 
                             <ul className='list-unstyled second-list'>
                                 <li>
-                                    <img src='/images/footer/face.png' />
+                                    <img src='/nas-nav-task/images/footer/face.png' />
                                     /YESHTERY
                                 </li>
                                 <li>
-                                    <img src='/images/footer/linked.png' />
+                                    <img src='/nas-nav-task/images/footer/linked.png' />
                                     /YESHTERY
                                 </li>
                                 <li>
-                                    <img src='/images/footer/insta.png' />
+                                    <img src='/nas-nav-task/images/footer/insta.png' />
                                     /YESHTERY
                                 </li>
                                 <li>
-                                    <img src='/images/footer/twitter.png' />
+                                    <img src='/nas-nav-task/images/footer/twitter.png' />
                                     /YESHTERY
                                 </li>
                             </ul>
