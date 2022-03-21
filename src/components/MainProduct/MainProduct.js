@@ -25,26 +25,26 @@ export default class MainProduct extends React.Component {
                 {this.props.state?.firstProduct?.imgs && (
                     <div>
                         <div>
-                            <img className='w-100' src={"/nas-nav-task/" + this.props.state.firstProduct.imgs.firstImg} />
+                            <img className='w-100' src={this.props.state.firstProduct.imgs.firstImg} />
                         </div>
                         <div className='d-flex other-imgs'>
                             <div className='d-flex align-items-center'>
-                                <img src='/nas-nav-task/images/upperHeader/chev-left.png' />
+                                <img src='/images/upperHeader/chev-left.png' />
                             </div>
                             <div>
-                                <img src={'/nas-nav-task/' + this.props.state.firstProduct.imgs.secondImg} />
+                                <img src={this.props.state.firstProduct.imgs.secondImg} />
                             </div>
                             <div>
-                                <img src={"/nas-nav-task/" + this.props.state.firstProduct.imgs.thirdImg} />
+                                <img src={this.props.state.firstProduct.imgs.thirdImg} />
                             </div>
                             <div>
-                                <img src={"/nas-nav-task/" + this.props.state.firstProduct.imgs.fourthImg} />
+                                <img src={this.props.state.firstProduct.imgs.fourthImg} />
                             </div>
                             <div>
-                                <img src={"/nas-nav-task/" + this.props.state.firstProduct.imgs.fifthImg} />
+                                <img src={this.props.state.firstProduct.imgs.fifthImg} />
                             </div>
                             <div className='d-flex align-items-center'>
-                                <img src='/nas-nav-task/images/upperHeader/chev-right.png' />
+                                <img src='/images/upperHeader/chev-right.png' />
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ export default class MainProduct extends React.Component {
                 <div className='main-product-details'>
                     {this.props.state?.firstProduct && (
                         <div>
-                            <img src='/nas-nav-task/images/middleHeader/adidas.png' />
+                            <img src='/images/middleHeader/adidas.png' />
 
                             <h3 className='my-3'>
                                 {this.props.state.firstProduct.title}
@@ -66,11 +66,11 @@ export default class MainProduct extends React.Component {
 
                             <div className='d-flex justify-content-between'>
                                 <ul className='list-unstyled d-flex'>
-                                    <li><img src='/nas-nav-task/images/rating/star2.svg' /></li>
-                                    <li><img src='/nas-nav-task/images/rating/star2.svg' /></li>
-                                    <li><img src='/nas-nav-task/images/rating/star2.svg' /></li>
-                                    <li><img src='/nas-nav-task/images/rating/star2.svg' /></li>
-                                    <li><img src='/nas-nav-task/images/rating/star1.svg' /></li>
+                                    <li><img src='/images/rating/star2.svg' /></li>
+                                    <li><img src='/images/rating/star2.svg' /></li>
+                                    <li><img src='/images/rating/star2.svg' /></li>
+                                    <li><img src='/images/rating/star2.svg' /></li>
+                                    <li><img src='/images/rating/star1.svg' /></li>
                                 </ul>
                                 <div className='font-weight-bold'>
                                     {this.props.state.firstProduct.totalRate} Of 5
@@ -103,10 +103,10 @@ export default class MainProduct extends React.Component {
                                 <h2>Color</h2>
                                 <div className='d-flex'>
                                     <div className='active'>
-                                        <img src='/nas-nav-task/images/colors/6.png' />
+                                        <img src='/images/colors/6.png' />
                                     </div>
                                     <div>
-                                        <img src='/nas-nav-task/images/colors/7.png' />
+                                        <img src='/images/colors/7.png' />
                                     </div>
                                 </div>
                             </div>
@@ -115,9 +115,9 @@ export default class MainProduct extends React.Component {
                                 <h2>Quantity</h2>
                                 <div className='quantity-container'>
 
-                                    <button onClick={() => this.decrementQuantity()}><img src='/nas-nav-task/images/quantity/minus.svg' /></button>
+                                    <button onClick={() => this.decrementQuantity()}><img src='/images/quantity/minus.svg' /></button>
                                     <span>{this.props.state.quantity}</span>
-                                    <button onClick={() => this.incrementQuantity()}><img src='/nas-nav-task/images/quantity/plus.svg' /></button>
+                                    <button onClick={() => this.incrementQuantity()}><img src='/images/quantity/plus.svg' /></button>
                                 </div>
 
                                 <div className='d-flex add-to-cart-container'>

@@ -7,9 +7,9 @@ function LastFooter() {
         <div className="container last-footer d-flex justify-content-between align-items-center">
             <div>© 2021 yeshtery, all rights reserved.</div>
             <ul className='list-unstyled d-flex'>
-                <li><img src='/nas-nav-task/images/footer/cash.png' /></li>
-                <li><img src='/nas-nav-task/images/footer/visa.png' /></li>
-                <li><img src='/nas-nav-task/images/footer/master.png' /></li>
+                <li><img src='/images/footer/cash.png' /></li>
+                <li><img src='/images/footer/visa.png' /></li>
+                <li><img src='/images/footer/master.png' /></li>
             </ul>
             <div className='d-flex'>
                 Powered By <img src='/images/footer/nasNav.png' />
