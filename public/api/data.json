@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "title": "Lorem Ipsum is simply dummy text of the printing",
+        "type": "men",
+        "starRate": 4,
+        "totalRate": 4.9,
+        "totalUserRate": 22,
+        "price": 9.999,
+        "discount": 30,
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large",
+            "X Large",
+            "XX Large"
+        ],
+        "colors": [
+            "../images/First-Product/6.png",
+            "../images/First-Product/7.png"
+        ],
+        "imgs": {
+            "firstImg": "/images/First-Product/1.png",
+            "secondImg": "/images/First-Product/2.png",
+            "thirdImg": "/images/First-Product/3.png",
+            "fourthImg": "/images/First-Product/4.png",
+            "fifthImg": "/images/First-Product/5.png"
+        },
+        "quan": 0
+    },
+    {
+        "id": 2,
+        "title": "Lorem Ipsum is simply dummy text of the printing",
+        "starRate": 4,
+        "totalRate": 4.2,
+        "price": 9.999,
+        "discount": 50,
+        "img": "../images/Second-Product/1.png",
+        "privicePrice": "9.999",
+        "pickup": "Genena Mall"
+    },
+    {
+        "id": 3,
+        "title": "Lorem Ipsum is simply dummy text of the printing",
+        "starRate": 4,
+        "totalRate": 4.2,
+        "price": 9.999,
+        "discount": 50,
+        "img": "../images/Third-Product/3.png",
+        "from": "UK",
+        "to": "Egypt",
+        "in": 10
+    },
+    {
+        "id": 4,
+        "title": "Lorem Ipsum is simply dummy text of the printing",
+        "starRate": 4,
+        "totalRate": 4.2,
+        "price": 9.999,
+        "discount": 30,
+        "img": "../images/Fourth-Product/4.png",
+        "privicePrice": "9.999",
+        "pickup": "Genena Mall"
+    },
+    {
+        "id": 5,
+        "title": "Lorem Ipsum is simply dummy text of the printing",
+        "starRate": 4,
+        "totalRate": 4.2,
+        "price": 9.999,
+        "discount": 70,
+        "img": "../images/Fifth-Product/5.png",
+        "privicePrice": "9.999",
+        "from": "Egypt",
+        "to": "Egypt",
+        "in": "2 Days"
+    }
+]

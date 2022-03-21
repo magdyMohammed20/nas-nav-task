@@ -1,0 +1,22 @@
+@import '../../style/global.scss';
+
+.last-header{
+    background-color: var(--primary-color);
+    height: 50px;
+    line-height: 50px;
+    a{
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    ul{
+       
+        margin: 0 auto;
+
+        li:last-child{
+            a{
+                color: var(--red-color)
+            }
+        }
+    }
+}

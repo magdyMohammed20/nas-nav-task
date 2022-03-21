@@ -1,0 +1,16 @@
+@import '../../style/global.scss';
+
+.last-footer{
+    color: #FFF;
+    background-color: var(--darken-color);
+    padding: 15px 70px !important;
+    ul img{
+        margin: 0 5px;
+    }
+
+    div:last-child{
+        img{
+            margin-left: 10px;
+        }
+    }
+}

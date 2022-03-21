@@ -1,0 +1,42 @@
+@import '../../style/global.scss';
+
+.upper-header{
+    background-color: var(--yellow-color);
+    height: 50px;
+    ul{
+
+        li{
+            display: flex;
+            align-items: center;
+            margin: 0 13px;
+
+
+            img{
+                margin-right: 7px;
+            }
+
+            .logo{
+                margin-left: 15px;
+            }
+
+
+            a{
+                font-weight: bold;
+            }
+
+            a.shownow{
+               color: #000
+            }
+
+            .chev-left{
+                margin-right: 10px;
+            }
+
+            .chev-right{
+                margin-left: 10px;
+            }
+        }
+
+
+    }
+}

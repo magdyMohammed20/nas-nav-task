@@ -1,0 +1,41 @@
+@import '../../style/global.scss';
+
+.similar{
+    h1{
+        color: var(--secondary-color);
+        margin: 14px 0;
+    }
+
+    p{
+        color: var(--darken-color);
+        font-size: 1.2em;
+        
+    }
+
+    .card{
+        padding: 20px;
+        
+        & > div{
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+        }
+        .card-body{
+            padding: 10px 13px;
+
+            .discount{
+                margin-left: 12px;
+            }
+        }
+    }
+
+    .progress{
+        height: 3px;
+        background-color: var(--light-color);
+        margin-top: 20px;
+        div{
+            width: 75%;
+            height: 100%;
+            background-color: var(--secondary-color);
+        }
+    }
+}

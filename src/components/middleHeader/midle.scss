@@ -1,0 +1,51 @@
+@import '../../style/global.scss';
+
+.middle-header{
+    padding: 15px 0 !important;
+    .form-group{
+        position: relative;
+        input{
+            padding: 10px 9px 10px 40px;
+            border-radius: 64px;
+            border: 1px solid #CCC;
+            font-weight: bold;
+        }
+
+        img{
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10px;
+        
+        }
+    }
+
+    ul{
+        li{
+            
+            margin: 0 15px;
+
+            img{
+                margin-right: 10px;
+            }
+
+            span.cart-container{
+                position: relative;
+            }
+
+            .cart-counter{
+                position: absolute;
+                background-color: var(--yellow-color);
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                text-align: center;
+                line-height: 15px;
+                right: 0;
+            }
+        }
+    }
+   
+}
